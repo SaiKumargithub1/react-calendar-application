@@ -1,0 +1,78 @@
+.admin-dashboard {
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.admin-dashboard h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.admin-dashboard h3 {
+  font-size: 20px;
+  color: #555;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Separate sections for forms */
+.admin-dashboard .form-section {
+  width: 100%;
+  max-width: 800px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.admin-dashboard .form-section h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 18px;
+}
+
+.admin-dashboard .form-section form {
+  width: 100%;
+}
+
+.existing-methods h4 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.existing-methods ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.existing-methods li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  color: #555;
+}
+
+.existing-methods li:last-child {
+  border-bottom: none;
+}
+
+.existing-methods li:hover {
+  background-color: #f0f0f0;
+}
+
+.existing-methods p {
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}

@@ -1,0 +1,39 @@
+.communication-method-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: linear-gradient(135deg, #fff5e6, #fdfd96);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.communication-method-form input,
+.communication-method-form textarea,
+.communication-method-form button,
+.communication-method-form label {
+  font-family: "Arial", sans-serif;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.communication-method-form button {
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.communication-method-form button:hover {
+  background-color: #ff8c00;
+}
+
+.communication-method-form h3,
+.communication-method-form h4 {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}

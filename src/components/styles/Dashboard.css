@@ -1,0 +1,115 @@
+.dashboard {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h2 {
+  text-align: center;
+  color: #343a40;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  border: 1px solid #dee2e6;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.dashboard-table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.dashboard-table tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.dashboard-table tr:hover {
+  background-color: #e9ecef;
+}
+
+.dashboard-table td {
+  padding: 1rem;
+}
+
+.dashboard-table td button,
+.dashboard-table td div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dashboard-table td button {
+  background-color: #28a745;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.dashboard-table td button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+.dashboard-table td button:active {
+  background-color: #1e7e34;
+  transform: translateY(2px);
+}
+
+.dashboard-table td div select,
+.dashboard-table td div input {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+}
+
+.dashboard-table td div button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.dashboard-table td div button:hover {
+  background-color: #0056b3;
+}
+
+.dashboard-table td div button:active {
+  background-color: #003f8c;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 1rem;
+  }
+
+  .dashboard-table th,
+  .dashboard-table td {
+    font-size: 14px;
+    padding: 0.5rem;
+  }
+}
